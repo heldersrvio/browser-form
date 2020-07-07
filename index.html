@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form novalidate>
+        <div class= "input-container">
+            <input type= "email" id= "email" placeholder= "Email" minlength= 5 maxlength= 20 required>
+            <span id= "email-error"></span>
+        </div>
+        <div class = "input-container">
+            <input type= "text" id= "country" placeholder="Country" minlength= 4 maxlength= 25 required>
+            <span id= "country-error"></span>
+        </div>
+        <div class = "input-container">
+            <input type= "text" id= "zip-code" placeholder="Zip Code" pattern= "[0-9]{3,9}" required>
+            <span id= "zip-code-error"></span>
+        </div>
+        <div class = "input-container">
+            <input type= "password" id= "password" placeholder= "Password" minlength= 8 required>
+            <span id= "password-error"></span>
+        </div>
+        <div class= "input-container">
+            <input type= "password" id= "password-confirmation" placeholder= "Confirm password" minlength= 8 required>
+            <span id= "password-confirmation-error"></span>
+        </div>
+        <button type= "submit">Submit</button>
+    </form>
+    <script src= "index.js"></script>
+</body>
+</html>

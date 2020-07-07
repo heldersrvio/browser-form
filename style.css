@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(206, 206, 206);
+    position: relative;
+}
+
+form {
+    width: 400px;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+input {
+    margin: 5px;
+    padding-left: 5px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+.invalid {
+    border: 1pt solid red;
+}
+
+span {
+    width: 150px;
+}
+
+#input-container {
+    display: inline-flex;
+}
